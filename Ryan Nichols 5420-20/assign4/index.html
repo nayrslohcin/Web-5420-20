@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- This is my assignment #4 page for LTEC 5420/20 -->
+<meta charset="UTF-8" />
+<title>Assignment #4 Tap</title>
+<link href="../css/rn_assign4.css" rel="stylesheet" type="text/css" />
+
+
+<script src="jquery-3.1.1.js"></script>
+<script src="head_fade.js"></script>
+<script src="tap_sounds.js"></script>
+<script src="jquery.rwdImageMaps.js"></script>
+
+</head>
+<body class="background">
+
+	<div class="gridContainer">
+	 <a href="../index.html"><img class="home" src="../assign4_images/home.png" alt="home" /></a> 
+    <header class="head">
+      
+      <h1>I dance anywhere. I just start moving my feet.</h1>
+      <sub>Savion Glover</sub>
+		<div id="tapsounds"><img src="../assign4_images/tapDance.png" alt="tap" usemap="#TapMap" class="tap" border="0" />
+          <map name="TapMap" id="TapMap">
+            <area shape="poly" coords="9,139,25,116,46,97,74,72,126,41,146,27,177,18,215,12,242,9,259,5,270,7,285,9,301,14,316,18,336,20,345,97,343,140,343,182,331,240,273,271,254,278,186,292,180,292,122,288,70,272,27,247,14,222,7,195,4,168" href="index.html" title="Toe" alt="Toe" />
+            <area shape="poly" coords="596,220,601,189,604,156,607,119,608,98,605,75,598,46,605,36,616,32,705,39,714,42,754,56,782,86,793,118,796,141,791,166,781,188,764,208,743,222,710,233,676,237,613,229,596,224" href="index.html" title="Heal" alt="Heal" />
+            <area shape="rect" coords="383,84,568,176" href="index.html" title="Shuffle" alt="Shuffle" />
+          </map>
+	  </div> <!-- tapsounds -->
+    </header>
+ 
+    <div id="menu">
+        <ul>
+		   <li><a href="history.html"><img src="../assign4_images/history.png" alt="history" /><span class="text-content"><span>History</span></span></a></li>
+		   <li><a href="savion.html"><img src="../assign4_images/savion.png" alt="savion" /><span class="text-content"><span>Savion</span></span></a></li>
+		   <li><a href="gregory.html"><img src="../assign4_images/gregory.png" alt="gregory" /><span class="text-content"><span>Gregory</span></span></a></li>
+		   <li><a href="gene.html"><img src="../assign4_images/gene.png" alt="gene" /><span class="text-content"><span>Gene</span></span></a></li>
+		   <li><a href="survey.html"><img src="../assign4_images/survey.png" alt="survey" /><span class="text-content"><span>Survey</span></span></a></li>
+	    </ul>
+	</div> <!-- menu -->
+    
+    <div id="content">
+
+    <article>
+		<p>Tap dance is a style of dance in which a dancer wearing shoes fitted with heel and toe taps sounds out audible beats by rhythmically striking the floor or any other hard surface.</p>
+
+		<p>I was first introduced to tap shortly after getting married to my wife.  No conversation about tap goes without mention of Gene, Savion, and Gregory.  I was skeptical at first, but soon learned to love the art; and what is more important, I do own a pair of capezio tap shoes.</p>
+	</article>
+    
+    </div> <!-- content -->
+       <div id="title">
+		   <h1>Information</h1>
+		</div> <!-- title -->
+    <div id="media" class="hide">
+		<h2>Tell us who you are any why you're here?</h2>
+    <form name="myform" method="post" 
+   action="https://classes.lt.unt.edu/LTEC3260_form2.html">
+		Enter your Full Name: <input type="text" name="name"></input><br />
+Enter your e-mail address: <input type="text" name="email"></input><br />
+
+Select which course you are in:<br />
+<input type="radio" name="course" value="5420"></input>5420
+<input type="radio" name="course" value="5450"></input>5450
+<br />
+
+	Are you requesting information ? <input type="checkbox" name="inforequest" value="yes"></input>
+<br />
+
+Are you interested in tap?<select name="typeofquestion">
+		<option value="1 - yes" selected="selected">yes</option>
+		<option value="2 - no">no</option>
+</select>
+<br />
+Why you're here ?<br />
+<textarea name="question" onfocus="if(this.value == 'Why you stopped by?') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Why you stopped by?'; }" rows="10" cols="50">
+Why you stopped by?</textarea>
+
+<input name="author" type="hidden" value="Ryan Nichols"></input>
+<input name="author_email" type="hidden" value="RyanNichols2@my.unt.edu"></input>
+<input name="returnpage" type="hidden" 
+   value="https://classes.lt.unt.edu/Fall_2016/LTEC_5420_020/rsn0023/assign4/index.html"></input>
+
+<br />
+<input name="Submit" type="submit"></input>
+<input type="reset" name="Reset Form"></input>
+</form>
+
+<audio id="tapsounds_now" preload="auto" controls="controls" autoplay="autoplay">
+	<source src="../assign4_videos/tap_audio.mp3" type="audio/mpeg"></source>
+ <!-- The next line will only be executed if the browser doesn't support the <audio> tag-->
+ <p>Your user agent does not support the HTML5 Audio element.</p>
+		</audio>
+   </div> <!-- media -->
+    <div id="footer">
+    <p>LTEC 5420/20 (2016) Ryan Nichols <a href="mailto:RyanNichols2@my.unt.edu">Email: RyanNichols2@my.unt.edu</a></p>
+    </div> <!-- footer -->
+</div> <!-- body -->
+
+</body>
+</html>

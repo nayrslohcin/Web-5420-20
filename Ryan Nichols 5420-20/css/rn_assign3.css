@@ -1,0 +1,281 @@
+html, body, div, p, h1, h2, h3, h4, h5, h6, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+header, footer, section, nav, article, aside {
+	display: block;
+}
+.asl_background {
+	background-image: -webkit-linear-gradient(270deg,rgba(198,198,198,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(198,198,198,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(198,198,198,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(198,198,198,1.00) 0%,rgba(255,255,255,1.00) 100%);
+}
+#top {
+	min-height: 80px;
+	max-height: 80px;
+	width: 100%;
+}
+#top .asl-hands {
+	width: 65px;
+	margin-top: -60px;
+	float: left;
+	clear: both;
+}
+#top .home {
+	width: 30px;
+	float: right;
+	margin-top: -60px;
+	clear: both;
+}
+#top #menu {
+	padding-top: 63px;
+}
+#top #menu ul {
+	list-style: none;
+	text-align: center;
+	border-top-width: thin;
+}
+#top #menu ul li{
+	display: inline-block;
+	background-color: #c6c6c6;
+	margin-left: 20px;
+}
+#top #menu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+}
+#information  {
+	max-width: 700px;
+	min-height: 700px;
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.40);
+	box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.40);
+	border-radius: 15px;
+	overflow: scroll;
+	background-image: url(../assign3_images/chalkboard.jpg);
+	background-size: 100%;
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-top: 80px;
+	margin-top: 18px;
+	margin-right: auto;
+	margin-left: auto;
+	max-height: 750px;
+}
+#body #information .index {
+	margin-top: -81px;
+	margin-left: 16px;
+}
+#body #information .whatisasl {
+	margin-top: -81px;
+	margin-left: 106px;
+}
+#body #information .aslhistory {
+	margin-top: -81px;
+	margin-left: 214px;
+}
+#body #information .defculture {
+	margin-top: -81px;
+	margin-left: 307px;
+}
+#body #information .expression {
+	margin-top: -81px;
+	margin-left: 415px;
+}
+#body #information .language {
+	margin-top: -81px;
+	margin-left: 532px;
+}
+#body #information .addres {
+	margin-top: -81px;
+	margin-left: 645px;
+}
+#body #information h1 {
+	color: #F5F5F5;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-align: center;
+	text-shadow: 0px 0px 40px;
+}
+#body #information article {
+	color: #f5f5f5;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	margin-top: 80px;
+	line-height: 40px;
+	text-shadow: 0px 0px 40px;
+	text-indent: 40px;
+	text-align: left;
+}
+#information article a {
+	color: #f5f5f5;
+	target-new: window;
+}
+#body #information .asl {
+	text-align: center;
+}
+#information .asl img {
+}
+.moreinfo {
+    width: 100%;
+    white-space: nowrap;
+	border-collapse: collapse;
+}
+.moreinfo tr {
+    border-bottom: 1px solid #ccc;
+}
+.moreinfo th   {
+	text-align: center;
+	font-size: medium;
+	color: #f5f5f5;
+}
+.moreinfo tr .col {
+	line-height: normal;
+	transform: rotate(270deg);
+	width: 10%;
+}
+.moreinfo td {
+	font-size: small;
+	text-align: center;
+}
+.moreinfo td a {
+	text-decoration: none;
+}
+.moreinfo a:hover {
+	background-color: #59B1AB;
+}
+.a {
+	list-style-type: square;
+	list-style-image: url("../assign3_images/sign_a.png");
+	list-style-position: inside;
+}
+.b {
+	list-style-type: square;
+	list-style-image: url("../assign3_images/sign_b.png");
+	list-style-position: inside;
+}
+.c {
+	list-style-type: square;
+	list-style-image: url("../assign3_images/sign_c.png");
+	list-style-position: inside;
+}
+.d {
+	list-style-type: square;
+	list-style-image: url("../assign3_images/sign_d.png");
+	list-style-position: inside;
+}
+.e {
+
+	list-style-type: square;
+	list-style-image: url("../assign3_images/sign_e.png");
+	list-style-position: inside;
+}
+.f {
+	list-style-type: square;
+	list-style-image: url("../assign3_images/sign_f.png");
+	list-style-position: inside;
+}
+.g {
+	list-style-type: square;
+	list-style-image: url("../assign3_images/sign_g.png");
+	list-style-position: inside;
+}
+.h {
+	list-style-type: square;
+	list-style-image: url("../assign3_images/sign_h.png");
+	list-style-position: inside;
+}
+body ul li {
+	text-decoration: none;
+	list-style: none;
+}
+#footer {
+	max-width: 1700px;
+	min-width: 800px;
+}
+#footer p  {
+	text-align: center;
+	font-size: xx-small;
+}
+.hvr-arrow-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+.hvr-arrow-bottom:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  border-style: solid;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  left: calc(50% - 10px);
+  bottom: 0;
+  border-width: 10px 10px 0 10px;
+  border-color: #c6c6c6 transparent transparent transparent;
+}
+.hvr-arrow-bottom:hover:before, .hvr-arrow-bottom:focus:before, .hvr-arrow-bottom:active:before {
+  -webkit-transform: translateY(10px);
+  transform: translateY(25px);
+}
+.alphabet {
+	width: 100%;
+	white-space: nowrap;
+	border-collapse: collapse;
+}
+.alphabet img {
+    height: 25px;
+}
+.alphabet tr {
+    border-bottom: 1px solid #ccc;
+}
+.alphabet th   {
+	text-align: center;
+	font-size: medium;
+	color: #f5f5f5;
+}
+.alphabet tr .col {
+	line-height: normal;
+	transform: rotate(270deg);
+	width: 1em;
+}
+.alphabet figure {
+	overflow: hidden;
+	position: relative;
+}
+.alphabet figcaption {
+	background: rgba(0,0,0,0);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+.alphabet figcaption p {
+	
+	font-size: 20px;
+	position: left;
+	vertical-align: middle;
+}
+.alphabet td:hover figcaption {
+	opacity: 1;
+}
+.alphabet td:hover img {
+	opacity: .2;
+}
